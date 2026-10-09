@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content5="width=device-width, initial-scale=1.0">
+    <title>إتمام الطلب</title>
+    <style>
+        body { font-family: Tahoma, sans-serif; background-color: #f4f4f9; margin: 0; padding: 20px; direction: rtl; }
+        .container { max-width: 400px; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); margin: auto; }
+        h2 { text-align: center; color: #333; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; color: #666; }
+        input { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        button { width: 100%; background: #28a745; color: white; padding: 10px; border: none; border-radius: 4px; font-size: 16px; cursor: pointer; }
+        button:hover { background: #218838; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>إتمام الطلب</h2>
+    <form>
+        <div class="form-group">
+            <label for="name">الاسم الكامل:</label>
+            <input type="text" id="name" required placeholder="أدخل اسمك هنا">
+        </div>
+        <div class="form-group">
+            <label for="phone">رقم الهاتف:</label>
+            <input type="tel" id="phone" required placeholder="أدخل رقم هاتفك">
+        </div>
+        <div class="form-group">
+            <label for="address">العنوان:</label>
+            <input type="text" id="address" required placeholder="المدينة، الحي...">
+        </div>
+        <button type="submit">تأكيد الطلب</button>
+    </form>
+</div>
+
+</body>
+</html>
